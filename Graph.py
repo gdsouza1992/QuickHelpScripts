@@ -44,12 +44,7 @@ class Graph:
         self.node_dict[fromNode].add_neighbor(self.node_dict[toNode],costFrom)
 
         # if bidirectional
-        # self.node_dict[toNode].add_neighbor(self.node_dict[fromNode], costTo)
-
-class Search:
-
-    def Greedy(self,graph,start,end):
-        
+        # self.node_dict[toNode].add_neighbor(self.node_dict[fromNode], costTo)        
 
 if __name__ == '__main__':
     g = Graph()
