@@ -2,6 +2,7 @@
 class Node:
     def __init__(self,node):
         self.id = node
+	#dictionary to store adjacent nodes
         self.adjacent = {}
 
     def add_neighbor(self,neighbor,weight = 1):
